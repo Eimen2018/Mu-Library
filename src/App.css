@@ -1,32 +1,201 @@
-.App {
+.navigation {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+h3 {
+  font-size: 25px;
+  text-transform: uppercase;
+}
+p {
+  font-size: 20px;
+}
+header {
+  width: 100%;
+  position: fixed;
+  top: 0;
+  padding-top: 10px;
+  min-height: 10px;
+  color: #223b8b;
+  /* color:#5965bc; */
+  /* color: #00165d; */
+  border-bottom: 3px #f4f4f4 solid;
+  background-color: #fff;
+}
+header a {
+  color: #223b8b;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 13px;
+}
+header ul {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+header li {
+  display: inline;
+  padding: 0 20px 0 20px;
+}
+#signin {
+  padding-left: 0;
+}
+header .logo {
+  padding-left: 50px;
+  margin-top: -10px;
+  float: left;
+}
+header .logo h2 {
+  float: right;
+  padding-left: 5px;
+  margin-top: 15px;
+  font-size: 13px;
+  font-weight: normal;
+}
+header nav {
+  float: right;
+  /* margin-top: 5px; */
+  padding-right: 10px;
+}
+.search-box {
+  display: inline;
+  border: black 1px solid;
+  padding: 5px;
+  border-color: #223b8b;
+  outline: none;
+  border-radius: 40px;
+}
+.search-txt {
+  outline: none;
+  border: none;
+  color: #223b8b;
+  background-color: transparent;
+  padding-left: 15px;
+  line-height: 10px;
+  transition: 0.4s;
+}
+
+.search-btn {
+  padding: 0 0 0 5px;
+}
+.search-icon {
+  width: 15px;
+  height: 15px;
+}
+.btn-signin {
+  background: #223b8b;
+  color: #fff;
+  border: none;
+  outline: none;
+  border-radius: 40px;
+  width: 80px;
+  height: 35px;
+  font-size: 14px;
+  /* text-transform: uppercase; */
+  font-family: cursive;
+}
+
+.qoute {
+  margin-top: 140px;
+}
+.qoute img {
+  width: 40%;
+  height: 450px;
+}
+.qoute-txt h1 {
+  float: right;
+  width: 60%;
+  margin-top: -310px;
+  color: #223b8b;
+  text-transform: uppercase;
+  font-family: cursive;
+}
+
+.student {
+  float: left;
+  padding: 20px;
+  text-align: center;
+  color: #223b8b;
+  justify-content: center;
+}
+.student img {
+  float: right;
+  width: 40%;
+  height: 450px;
+}
+.student h3 {
+  margin-top: 100px;
+}
+.student p {
+  width: 30%;
+  padding-left: 180px;
+}
+.teacher {
+  color: #223b8b;
+  float: right;
+  padding: 20px;
+  text-align: center;
+  justify-content: center;
+}
+.teacher img {
+  float: left;
+  width: 45%;
+  height: 450px;
+}
+.teacher h3 {
+  margin-top: 150px;
+}
+.teacher p {
+  width: 50%;
+  padding-left: 45%;
+}
+.premium img {
+  float: right;
+  width: 40%;
+  height: 450px;
+}
+.premium {
+  float: left;
+  color: #223b8b;
+  text-align: center;
+  padding: 20px;
+  justify-content: center;
+}
+.premium h3 {
+  margin-top: 110px;
+}
+.premium p {
+  width: 35%;
+  padding-left: 160px;
+}
+#footer {
+  background-color: #223b8b;
+  position: relative;
+  height: 100px;
+  margin-top: -100px;
+  clear: both;
   text-align: center;
 }
-
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 40vmin;
+.middle{
+  margin-bottom: 10px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+footer i {
+  color: #f4f4f4;
 }
-
-.App-link {
-  color: #61dafb;
+footer h4 {
+  margin:0 0 5px 0;
+  color: #f4f4f4;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.nav-active{
+  border: 1px #223b8b solid;
+  padding: 10px 20px 25px 20px;
+  background-color: #223b8b;
+  color: #fff;
+  border-radius: 15px;
+}
+.signup{
+  width: 25%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #00165d;
 }
