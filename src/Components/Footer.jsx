@@ -8,7 +8,7 @@ import Youtube from '../Assets/icons8_Play_Button_30px.png';
      state = {  }
      render() { 
          return ( <React.Fragment>
-            <div class="middle">
+            <div className="middle">
             <h4>Follow Us On</h4>
             <a href="btn"><img src={Facebook} alt="Facebook"/></a>
             <a href="btn"><img src={Twitter} alt="Twitter"/></a>

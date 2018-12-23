@@ -1,6 +1,8 @@
 import React, { Component } from 'react';
 import Logo from '../Assets/MuIcon.png'
 import Search from '../Assets/icons8_Search.ico'
+import Books from './Books';
+import {Link} from 'react-router-dom';
 class Navbar extends Component {
     state = {  }
     render() { 
@@ -12,8 +14,8 @@ class Navbar extends Component {
                 </div>
             <nav>
                 <ul>
-                    <li><a href="index.html" className="nav-active">Home</a></li>
-                    <li><a>Books</a></li>
+                    <li><Link to={{pathname:`/`}}>Home</Link></li>
+                    <li><Link to={{pathname:`/Books`}}>Books</Link></li>
                     <li><a>Handouts</a></li>
                     <li><a>About</a></li>
                     <li>

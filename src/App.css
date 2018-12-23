@@ -72,6 +72,7 @@ header nav {
   background-color: transparent;
   padding-left: 15px;
   line-height: 10px;
+  -webkit-transition: 0.4s;
   transition: 0.4s;
 }
 
@@ -193,9 +194,52 @@ footer h4 {
   color: #fff;
   border-radius: 15px;
 }
+
 .signup{
   width: 25%;
   height: 50px;
   font-size: 20px;
   background-color: #00165d;
+}
+.container{
+  margin: 100px;
+  color:#223b8b;
+}
+.Book{
+  margin: 0;
+  padding: 0;
+  justify-content: center;
+}
+.Book-Desc{
+  width: 30%;
+  height: 100px;
+  border: 1px #223b8b solid;
+  float: left;
+  margin: 10px;
+}
+.Book-Image{
+  background-color: #00165d;
+  width: 100px;
+  height: 100px;
+ float: left;
+}
+.Book-Desc-w{
+  height: 100%;
+  margin: 10px;
+  text-align: center;
+}
+.Book-Desc-w h3{
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.Book-Desc-w p{
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.Book-Desc-w i{
+  font-size: 10px;
+  padding: 0;
 }
