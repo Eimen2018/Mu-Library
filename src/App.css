@@ -234,18 +234,18 @@ footer h4 {
   text-align: center;
 }
 .Book-Desc-w h3 {
-  font-size: 20px;
+  font-size: 10px;
   margin: 0;
   padding: 0;
 }
 .Book-Desc-w p {
-  font-size: 15px;
+  font-size: 8px;
   margin: 0;
-  padding: 0;
+  padding: 10px 0 0 0;
   overflow: hidden;
 }
 .Book-Desc-w i {
-  font-size: 10px;
+  font-size: 8px;
   padding: 0;
 }
 /* Book Card Big */
@@ -264,24 +264,24 @@ footer h4 {
   width: 200px;
   height: 200px;
   display: inline-block;
-  margin: 25px;;
+  margin: 25px 25px 5px 25px;
 }
 .Book-Card-Desc-w {
   height: 100%;
   text-align: center;
+  
 }
 .Book-Card-Desc-w h3 {
-  font-size: 20px;
+  font-size: 15px;
   margin: 0;
   padding: 0;
 }
 .Book-Card-Desc-w p {
-  font-size: 15px;
+  font-size: 10px;
   margin: 0;
-  padding: 0;
+  padding: 10px 0 0 0;
   overflow: hidden;
 }
 .Book-Card-Desc-w i {
   font-size: 10px;
-  padding: 0;
 }

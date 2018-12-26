@@ -7,7 +7,7 @@ class BookCard extends Component {
         return (  
             <div className="Book">
             {this.props.bookinfo.map(book=>
-            <div className="Book-Card">
+            <div key={book.ID} className="Book-Card">
                 <img className="Book-Card-Image"src="" alt=""/>
                 <div className="Book-Card-Desc-w">
                     <h3>{book.title}</h3>
