@@ -177,17 +177,17 @@ header nav {
   clear: both;
   text-align: center;
 }
-.middle{
+.middle {
   margin-bottom: 10px;
 }
 footer i {
   color: #f4f4f4;
 }
 footer h4 {
-  margin:0 0 5px 0;
+  margin: 0 0 5px 0;
   color: #f4f4f4;
 }
-.nav-active{
+.nav-active {
   border: 1px #223b8b solid;
   padding: 10px 20px 25px 20px;
   background-color: #223b8b;
@@ -195,51 +195,93 @@ footer h4 {
   border-radius: 15px;
 }
 
-.signup{
+.signup {
   width: 25%;
   height: 50px;
   font-size: 20px;
   background-color: #00165d;
 }
-.container{
+.container {
   margin: 100px;
-  color:#223b8b;
+  color: #223b8b;
 }
-.Book{
+/* Book Card small */
+.Book {
+  /* background-color: #223b8b; */
   margin: 0;
   padding: 0;
   justify-content: center;
 }
-.Book-Desc{
+.Book-Desc {
+  background-color: #223b8b;
+  color: #fff;
   width: 30%;
   height: 100px;
-  border: 1px #223b8b solid;
+  /* border: 1px #223b8b solid; */
   float: left;
-  margin: 10px;
+  margin: 15px;
+  border-radius: 0px 0px 50px 0px;
 }
-.Book-Image{
+.Book-Image {
   background-color: #00165d;
   width: 100px;
   height: 100px;
- float: left;
+  float: left;
 }
-.Book-Desc-w{
+.Book-Desc-w {
   height: 100%;
   margin: 10px;
   text-align: center;
 }
-.Book-Desc-w h3{
+.Book-Desc-w h3 {
   font-size: 20px;
   margin: 0;
   padding: 0;
 }
-.Book-Desc-w p{
+.Book-Desc-w p {
   font-size: 15px;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
-.Book-Desc-w i{
+.Book-Desc-w i {
+  font-size: 10px;
+  padding: 0;
+}
+/* Book Card Big */
+.Book-Card{
+  width: 250px;
+  height: 350px;
+  box-sizing: border-box;
+  float: left;
+  margin:50px;
+  background-color: #223b8b;
+  color: #fff;
+  border-radius: 0px 0px 50px 50px;
+}
+.Book-Card-Image {
+  background-color: #00165d;
+  width: 200px;
+  height: 200px;
+  display: inline-block;
+  margin: 25px;;
+}
+.Book-Card-Desc-w {
+  height: 100%;
+  text-align: center;
+}
+.Book-Card-Desc-w h3 {
+  font-size: 20px;
+  margin: 0;
+  padding: 0;
+}
+.Book-Card-Desc-w p {
+  font-size: 15px;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+.Book-Card-Desc-w i {
   font-size: 10px;
   padding: 0;
 }
