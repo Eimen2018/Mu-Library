@@ -9,8 +9,8 @@ class Navbar extends Component {
         return (  
             <div className="navigation">
                 <div className="logo">
-                    <a href="index.html"><img src={Logo} alt="Logo" height="50" width="50"/></a>
-                        <a><h2>Library</h2></a>
+                    <Link to ={{pathname:'/'}}><img src={Logo} alt="Logo" height="50" width="50"/>
+                        <h2>Library</h2></Link>
                 </div>
             <nav>
                 <ul>

@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import {Link} from 'react-router-dom';
+import { Fade } from 'react-reveal';
 
 class Book extends Component {
     state = {  }
@@ -7,19 +8,19 @@ class Book extends Component {
         const {title,Desc,Publisher} = this.props.bookinfo;
         return ( 
             
-            <Link to=""><div className="Book">
+            <div className="Book">
             {this.props.bookinfo.map(book=>
-            <div className="Book-Desc">
+            <Link to="/Book/:id"><Fade right><div key={book.ID} className="Book-Desc">
                 <img className="Book-Image"src="" alt=""/>
-                <div className="Book-Desc-w">
+                <Fade right><div className="Book-Desc-w">
                     <h3>{book.title}</h3>
                     <p>{book.Desc}</p>
                     <i>By:{book.Publisher}</i>
-                </div>
-                </div>
+                </div></Fade>
+                </div></Fade></Link>
                 )}
             </div>
-            </Link>
+            
          );
     }
 }

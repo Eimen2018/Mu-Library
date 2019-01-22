@@ -1,7 +1,15 @@
+/* Nav Bar */
 .navigation {
   width: 100%;
   margin: 0;
   overflow: hidden;
+}
+.nav-active {
+  border: 1px #223b8b solid;
+  padding: 10px 20px 25px 20px;
+  background-color: #223b8b;
+  color: #fff;
+  border-radius: 15px;
 }
 h3 {
   font-size: 25px;
@@ -17,8 +25,8 @@ header {
   padding-top: 10px;
   min-height: 10px;
   color: #223b8b;
-  /* color:#5965bc; */
-  /* color: #00165d; */
+  /* color:#5965bc; Light*/
+  /* color: #00165d; Dark*/
   border-bottom: 3px #f4f4f4 solid;
   background-color: #fff;
 }
@@ -94,8 +102,9 @@ header nav {
   font-size: 14px;
   /* text-transform: uppercase; */
   font-family: cursive;
-}
+} /*  Nav bar End */
 
+/* Main */
 .qoute {
   margin-top: 140px;
 }
@@ -169,6 +178,13 @@ header nav {
   width: 35%;
   padding-left: 160px;
 }
+
+.signup {
+  width: 25%;
+  height: 50px;
+  font-size: 20px;
+  background-color: #00165d;
+}
 #footer {
   background-color: #223b8b;
   position: relative;
@@ -187,45 +203,33 @@ footer h4 {
   margin: 0 0 5px 0;
   color: #f4f4f4;
 }
-.nav-active {
-  border: 1px #223b8b solid;
-  padding: 10px 20px 25px 20px;
-  background-color: #223b8b;
-  color: #fff;
-  border-radius: 15px;
-}
+/* Main End */
 
-.signup {
-  width: 25%;
-  height: 50px;
-  font-size: 20px;
-  background-color: #00165d;
-}
 .container {
   margin: 100px;
   color: #223b8b;
 }
 /* Book Card small */
 .Book {
-  /* background-color: #223b8b; */
   margin: 0;
   padding: 0;
   justify-content: center;
 }
+
 .Book-Desc {
   background-color: #223b8b;
   color: #fff;
   width: 30%;
-  height: 100px;
-  /* border: 1px #223b8b solid; */
+  height: 130px;
   float: left;
   margin: 15px;
   border-radius: 0px 0px 50px 0px;
+  box-shadow: 5px 5px 5px #333;
 }
 .Book-Image {
   background-color: #00165d;
   width: 100px;
-  height: 100px;
+  height: 130px;
   float: left;
 }
 .Book-Desc-w {
@@ -234,12 +238,12 @@ footer h4 {
   text-align: center;
 }
 .Book-Desc-w h3 {
-  font-size: 10px;
+  font-size: 13px;
   margin: 0;
   padding: 0;
 }
 .Book-Desc-w p {
-  font-size: 8px;
+  font-size: 10px;
   margin: 0;
   padding: 10px 0 0 0;
   overflow: hidden;
@@ -248,13 +252,15 @@ footer h4 {
   font-size: 8px;
   padding: 0;
 }
+/* Book Card Small End */
+
 /* Book Card Big */
-.Book-Card{
+.Book-Card {
   width: 250px;
   height: 350px;
   box-sizing: border-box;
   float: left;
-  margin:50px;
+  margin: 50px;
   background-color: #223b8b;
   color: #fff;
   border-radius: 0px 0px 50px 50px;
@@ -269,7 +275,6 @@ footer h4 {
 .Book-Card-Desc-w {
   height: 100%;
   text-align: center;
-  
 }
 .Book-Card-Desc-w h3 {
   font-size: 15px;
@@ -285,3 +290,4 @@ footer h4 {
 .Book-Card-Desc-w i {
   font-size: 10px;
 }
+/* Book Card Big End*/
