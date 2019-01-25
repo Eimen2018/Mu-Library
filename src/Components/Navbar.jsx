@@ -1,8 +1,8 @@
 import React, { Component } from 'react';
 import Logo from '../Assets/MuIcon.png'
 import Search from '../Assets/icons8_Search.ico'
-import Books from './Books';
-import {Link} from 'react-router-dom';
+import {Link,NavLink} from 'react-router-dom';
+
 class Navbar extends Component {
     state = {  }
     render() { 
@@ -14,16 +14,15 @@ class Navbar extends Component {
                 </div>
             <nav>
                 <ul>
-                    <li><Link to={{pathname:`/`}}>Home</Link></li>
-                    <li><Link to={{pathname:`/Books`}}>Books</Link></li>
-                    <li><a>Handouts</a></li>
-                    <li><a>About</a></li>
+                    <li><NavLink to='/' exact activeClassName='nav-active'>Home</NavLink></li>
+                    <li><NavLink to='/Books' activeClassName='nav-active'>Books</NavLink></li>
+                    <li><NavLink to='/Handouts' activeClassName='nav-active'>Handouts</NavLink></li>
+                    <li><NavLink to='/About' activeClassName='nav-active'>About</NavLink></li>
                     <li>
                         <div className="search-box"><input type="text" className="search-txt" name="" placeholder="Type to search"/>
                             <a href="" className="search-btn"><img className="search-icon" src={Search} alt="" />
                             </a></div></li>
-                    <li id="signin"><a href=""><button className="btn-signin">Sign In</button></a></li>
-                    
+                    <li id="signin"><Link to={{pathname:`/SignIn`}}><button className="btn-signin">Sign In</button></Link></li>
                 </ul>
             </nav>
         </div>

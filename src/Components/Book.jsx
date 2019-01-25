@@ -5,12 +5,16 @@ import { Fade } from 'react-reveal';
 class Book extends Component {
     state = {  }
     render() { 
-        const {title,Desc,Publisher} = this.props.bookinfo;
+        const {ID,title,Desc,Publisher} = this.props.bookinfo;
         return ( 
             
             <div className="Book">
             {this.props.bookinfo.map(book=>
-            <Link to="/Book/:id"><Fade right><div key={book.ID} className="Book-Desc">
+            <Link to={{
+                pathname:`/Book/${book.ID}`,
+                state:{bookinfo:book}
+                }}>
+            <Fade right><div key={book.ID} className="Book-Desc">
                 <img className="Book-Image"src="" alt=""/>
                 <Fade right><div className="Book-Desc-w">
                     <h3>{book.title}</h3>

@@ -22,6 +22,7 @@ header {
   width: 100%;
   position: fixed;
   top: 0;
+  z-index: 9999;
   padding-top: 10px;
   min-height: 10px;
   color: #223b8b;
