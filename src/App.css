@@ -5,7 +5,7 @@
   overflow: hidden;
 }
 .nav-active {
-  border: 1px #223b8b solid;
+  border-bottom: 1px #223b8b solid;
   padding: 10px 20px 25px 20px;
   background-color: #223b8b;
   color: #fff;

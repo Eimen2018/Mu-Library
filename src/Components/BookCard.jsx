@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Fade } from 'react-reveal';
 
+
 class BookCard extends Component {
     state = {  }
     render() { 
