@@ -225,7 +225,7 @@ footer h4 {
   float: left;
   margin: 15px;
   border-radius: 0px 0px 50px 0px;
-  box-shadow: 5px 5px 5px #333;
+  box-shadow: 5px 5px 5px #ccc;
 }
 .Book-Image {
   background-color: #00165d;
@@ -292,3 +292,145 @@ footer h4 {
   font-size: 10px;
 }
 /* Book Card Big End*/
+
+/*SignIn*/
+.sign-in-container {
+  /* border: 1px solid #223b8b; */
+  width: 500px;
+  height: 530px;
+  margin: 30px 0 10px 400px;
+  box-shadow:3px 3px 3px 3px #ccc
+}
+.sign-in-container .logo {
+  box-sizing: border-box;
+  padding-left: 195px;
+  margin-bottom: 0;
+  margin-top: -40px;
+  width: auto;
+}
+.sign-in-container .logo h2 {
+  margin: -20px 0 0 0;
+  padding-left: 17px;
+  font-size: 1.5em;
+  font-weight: 400;
+  color: #223b8b;
+  width: 100px;
+}
+.sign-in-container a {
+  text-decoration: none;
+}
+.btn-Back {
+  width: 30px;
+  height: 30px;
+  background: url("../src/Assets/icons8_Back_Arrow_100px.png");
+  background-size: cover;
+  margin: 25px;
+  border: none;
+  /* border: 1px solid #223b8b; */
+  padding: 17px;
+  border-radius: 50px;
+}
+.btn-Back:hover{
+  background:url("../src/Assets/icons8_Back_Arrow_100px_2.png");
+  background-size: cover;
+}
+.logo h4{
+  font-size: 1.4em;
+  font-weight: normal;
+  margin: 10px 0 0 20px;
+  color: #00165d;
+}
+
+/* SignInform */
+.signin-form {
+  margin: 30px 0 0 100px;
+}
+.signin-form label {
+  display: block;
+  color: #00165d;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+.signin-form input {
+  text-align: center;
+  color: #223b8b;
+  font-size: 1.2em;
+  padding: 5px;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #00165d;
+  border-radius: 10px;
+}
+.signin-form input[placeholder]{
+  font-size: 1.0em;
+}
+.signin-form .btn-Next{
+  display: block;
+  float: right;
+  width: 80px;
+  height: 40px;
+  background-color: #223b8b;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin: 45px 50px 0 0;
+}
+.signin-form .btn-Next:hover{
+  background-color: #00165d;
+}
+.signin-form .btn-create{
+  margin-top: 60px;
+  float: left;
+  font-size: 1.0em;
+  border: none;
+  background: none;
+  outline: none;
+  color: #00165d;
+}
+.signin-form .btn-create:hover{
+  text-decoration: underline;
+}
+/* SignInform */
+
+/* SignUpform */
+.signup-form {
+  margin: 0px 0 0 100px;
+}
+.signup-form label {
+  display: block;
+  color: #00165d;
+  padding-top: 10px;
+  padding-bottom: 13px;
+}
+.signup-form input {
+  text-align: center;
+  color: #223b8b;
+  font-size: 1.0em;
+  padding: 0;
+  width: 300px;
+  height: 30px;
+  outline: none;
+  border: 1px solid #00165d;
+  border-radius: 10px;
+}
+.signup-form input[placeholder]{
+  font-size: 1.0em;
+}
+.signup-form .btn-create{
+  display: block;
+  float: right;
+  width: 80px;
+  height: 40px;
+  background-color: #223b8b;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 10px;
+  margin: 15px 50px 0 0;
+}
+.signup-form .btn-create:hover{
+  background-color: #00165d;
+}
+/* SignUpform */

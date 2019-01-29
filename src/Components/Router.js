@@ -6,6 +6,7 @@ import BookDetail from './BookDetail';
 import Handouts from './Handouts';
 import About from './About';
 import SignIn from './SignIn';
+import create from './create';
 
 const Router=() =>(
     <BrowserRouter>
@@ -16,6 +17,7 @@ const Router=() =>(
         <Route path="/Handouts" component ={Handouts}/>
         <Route path="/About" component ={About}/>
         <Route path="/SignIn" component ={SignIn}/>
+        <Route path="/create" component ={create}/>
     </Switch>
     </BrowserRouter>
 ); 
