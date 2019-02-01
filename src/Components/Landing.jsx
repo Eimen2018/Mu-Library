@@ -1,8 +1,8 @@
 import React, { Component } from "react";
-import Quote from "../Assets/undraw_book_lover_mkck.png";
-import Student from "../Assets/undraw_reading_list_4boi.png";
-import Teacher from "../Assets/undraw_teacher_35j2.png";
-import premium from "../Assets/undraw_graduation_9x4i.png";
+import Quote from "../Assets/Images/undraw_book_lover_mkck.png";
+import Student from "../Assets/Images/undraw_reading_list_4boi.png";
+import Teacher from "../Assets/Images/undraw_teacher_35j2.png";
+import premium from "../Assets/Images/undraw_graduation_9x4i.png";
 import { Fade } from 'react-reveal';
 
 class Landing extends Component {

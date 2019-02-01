@@ -1,9 +1,9 @@
 import React, { Component } from 'react';
-import Google from '../Assets/icons8_Google_Plus_30px.png';
-import Facebook from '../Assets/icons8_Facebook_30px.png';
-import Twitter from '../Assets/icons8_Twitter_30px_1.png';
-import Instagram from '../Assets/icons8_Instagram_30px_2.png';
-import Youtube from '../Assets/icons8_Play_Button_30px.png';
+import Google from '../Assets/Images/icons8_Google_Plus_30px.png';
+import Facebook from '../Assets/Images/icons8_Facebook_30px.png';
+import Twitter from '../Assets/Images/icons8_Twitter_30px_1.png';
+import Instagram from '../Assets/Images/icons8_Instagram_30px_2.png';
+import Youtube from '../Assets/Images/icons8_Play_Button_30px.png';
  class Footer extends Component {
      state = {  }
      render() { 

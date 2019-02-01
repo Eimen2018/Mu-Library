@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
-import Logo from '../Assets/MuIcon.png'
-import Search from '../Assets/icons8_Search.ico'
+import Logo from '../Assets/Images/MuIcon.png'
+import Search from '../Assets/Images/icons8_Search.ico'
 import {Link,NavLink} from 'react-router-dom';
 
 class Navbar extends Component {
@@ -20,7 +20,7 @@ class Navbar extends Component {
                     <li><NavLink to='/About' activeClassName='nav-active'>About</NavLink></li>
                     <li>
                         <div className="search-box"><input type="text" className="search-txt" name="" placeholder="Type to search"/>
-                            <a href="" className="search-btn"><img className="search-icon" src={Search} alt="" />
+                            <a href="#" className="search-btn"><img className="search-icon" src={Search} alt="" />
                             </a></div></li>
                     <li id="signin"><Link to={{pathname:`/SignIn`}}><button className="btn-signin">Sign In</button></Link></li>
                 </ul>

@@ -1,6 +1,6 @@
 import React,{Component} from 'react';
 import {Link} from 'react-router-dom';
-import Logo from '../Assets/MuIcon.png';
+import Logo from '../Assets/Images/MuIcon.png';
 import { Fade } from 'react-reveal';
 
 class SignIn extends Component {
