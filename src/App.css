@@ -225,7 +225,7 @@ footer h4 {
   float: left;
   margin: 15px;
   border-radius: 0px 0px 50px 0px;
-  box-shadow: 5px 5px 5px #ccc;
+  box-shadow: 5px 5px 5px gray;
 }
 .Book-Image {
   background-color: #00165d;
@@ -256,7 +256,7 @@ footer h4 {
 /* Book Card Small End */
 
 /* Book Card Big */
-.Book-Card {
+.Handout-Card {
   width: 250px;
   height: 350px;
   box-sizing: border-box;
@@ -264,31 +264,36 @@ footer h4 {
   margin: 50px;
   background-color: #223b8b;
   color: #fff;
-  border-radius: 0px 0px 50px 50px;
+  border-radius: 50px 50px 10px 10px;
+  box-shadow: 5px 3px 3px gray;
 }
-.Book-Card-Image {
+.Handout-Card-Image {
   background-color: #00165d;
-  width: 200px;
+  width: 250px;
   height: 200px;
   display: inline-block;
-  margin: 25px 25px 5px 25px;
+  margin: 5px 0px 0 0px;
+  border-radius: 50px 50px 0px 0px;
 }
-.Book-Card-Desc-w {
+.Handout-Card-Desc-w {
   height: 100%;
   text-align: center;
 }
-.Book-Card-Desc-w h3 {
+.Handout-Card-Desc-w h3 {
   font-size: 15px;
   margin: 0;
   padding: 0;
 }
-.Book-Card-Desc-w p {
+.Handout-Card-Desc-w p {
+  width: 200px;
+  /* border: 1px solid white; */
   font-size: 10px;
-  margin: 0;
-  padding: 10px 0 0 0;
+  margin-left: 15px;
+  padding: 10px;
   overflow: hidden;
 }
-.Book-Card-Desc-w i {
+.Handout-Card-Desc-w i {
+
   font-size: 10px;
 }
 /* Book Card Big End*/
@@ -433,4 +438,11 @@ footer h4 {
 .signup-form .btn-create:hover{
   background-color: #00165d;
 }
-/* SignUpform */
+/* End SignUpform */
+
+/* About */
+.imagecont img{
+  margin: 70px 0 0 330px;
+  width: 600px;
+}
+/* End About */

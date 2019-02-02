@@ -20,8 +20,8 @@ class Navbar extends Component {
                     <li><NavLink to='/About' activeClassName='nav-active'>About</NavLink></li>
                     <li>
                         <div className="search-box"><input type="text" className="search-txt" name="" placeholder="Type to search"/>
-                            <a href="#" className="search-btn"><img className="search-icon" src={Search} alt="" />
-                            </a></div></li>
+                            <Link to='/Search'className="search-btn"><img className="search-icon" src={Search} alt="" />
+                            </Link></div></li>
                     <li id="signin"><Link to={{pathname:`/SignIn`}}><button className="btn-signin">Sign In</button></Link></li>
                 </ul>
             </nav>
