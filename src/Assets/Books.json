@@ -2,54 +2,63 @@
     "ID":1,
     "title":"Introduction to Internet Programming",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Mahfuz A."
-
+    "Publisher":"Mahfuz A.",
+    "thumb":"thumb1.jpg"
 },{
     "ID":2,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 },{
     "ID":3,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 },{
     "ID":4,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 },
 {
     "ID":5,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 },{
     "ID":6,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 },
 {
     "ID":7,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"../Assets/Images/thumbnails/thumb1.jpg"
 },{
     "ID":8,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 },{
     "ID":9,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 },{
     "ID":10,
     "title":"Introduction to Artificial Intellignece",
     "Desc":"Lorem ipsum dolor sit amet consectetur adipisicing elit. Omnis eaque praesentium beatae natus",
-    "Publisher":"Haile A."
+    "Publisher":"Haile A.",
+    "thumb":"thumb1.jpg"
 }
 ]

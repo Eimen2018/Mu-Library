@@ -4,7 +4,13 @@ import Logo from '../Assets/Images/MuIcon.png';
 import { Fade } from 'react-reveal';
 
 class SignIn extends Component {
-    state = {  }
+    state = { 
+        auth:''
+     }
+
+    HandleOnSubmit = ({auth})=>{
+        this.setState(auth=true);
+    };
     render() { 
         return ( 
             <React.Fragment>
@@ -23,8 +29,8 @@ class SignIn extends Component {
                 <input type="text" name="email" required placeholder="john@example.com"/>
                 <label>Password</label>
                 <input type="password" name="password" required/>
-                <Link to={{}}><button type="submit" className="btn-Next">Next</button></Link>
-                <Link to={{pathname:'/create'}}><button className="btn-create">Create Account</button></Link>
+                <Link to={{pathname:'/home'}}><button type="submit" className="btn-Next">Next</button></Link>
+                <Link to={{pathname:'/create'}}><button onSubmit={this.HandleOnSubmit} className="btn-create">Create Account</button></Link>
                 </form>
                 </div>
             </div>

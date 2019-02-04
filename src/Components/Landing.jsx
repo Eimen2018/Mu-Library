@@ -4,6 +4,7 @@ import Student from "../Assets/Images/undraw_reading_list_4boi.png";
 import Teacher from "../Assets/Images/undraw_teacher_35j2.png";
 import premium from "../Assets/Images/undraw_graduation_9x4i.png";
 import { Fade } from 'react-reveal';
+import { Link } from "react-router-dom";
 
 class Landing extends Component {
   state = {};
@@ -56,7 +57,7 @@ class Landing extends Component {
             facilis officiis vero fugit necessitatibus, sed error possimus,
             beatae rem neque id? Sequi, dicta.
           </p>
-          <button className="btn-signin signup">Sign Up</button>
+          <Link to="/create"><button className="btn-signin signup">Sign Up</button></Link>
         </div>
         </Fade>
       </React.Fragment>
