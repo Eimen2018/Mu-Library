@@ -29,7 +29,7 @@ class SignedInNavBar extends Component {
                             <Link to='/Search'className="search-btn"><img className="search-icon" src={Search} alt="" />
                             </Link></div></li>
                 </ul>
-                <button className="btn-signedin"><img className="userNoti" src={notification} alt="" width="30" height="30"/><img className="userImage" src={user} alt="" width="30" height="30"/><span className="username">Aymen Nur</span></button>
+                <button className="btn-signedin"><Link to="/" class="badge1" data-badge="27"><img className="userNoti" src={notification} alt="" width="30" height="30"/></Link><img className="userImage" src={user} alt="" width="30" height="30"/><span className="username">Aymen Nur</span></button>
             </nav>
         </div>
  );

@@ -545,5 +545,150 @@ top:79%;
 }
 .userNoti{
   padding-right: 10px;
+  position:relative;
+}
+.badge1{
+  position: relative;
+}
+.badge1[data-badge]:after{
+  content:attr(data-badge);
+   position:absolute;
+   top:-20px;
+   right:4px;
+   font-size:.7em;
+   background:#F1D903;
+   color:white;
+   width:18px;height:18px;
+   text-align:center;
+   line-height:18px;
+   border-radius:50%;
+   box-shadow:0 0 1px #333;
 }
 /* end Signedin Navbar */
+
+/* Dashboard */
+.dash-container{
+  margin-top: 55px;
+}
+.welcome{
+  /* border: 1px solid #223b8b; */
+  width: 100%;
+  background-image: linear-gradient(to right,#00165d, #5965bc);
+  overflow: hidden;
+}
+.welcome h3{
+  font-weight: normal;
+  text-transform: none;
+  text-align: center;
+  color: whitesmoke;
+  font-family: cursive;
+}
+.dept{
+    /* border: 1px solid black; */
+    margin: 0;
+    padding: 0;
+    background-color: #223b8b;
+    color: whitesmoke;
+    
+}
+.dept h4,h5{
+  padding: 0;
+  margin: 0;
+}
+.dept h4{
+  /* text-indent: 100px; */
+  font-size: 0.8em;
+  text-transform: uppercase;
+  float: right;
+  font-weight: normal;
+  margin-right: 0px; 
+  margin-top: -40px; 
+  border: 1px solid white;
+  text-align: center;
+  /* padding-right: 10px; */
+  padding: 10px;
+  border-radius: 40px 0 0 40px;
+}
+.dept p{
+  font-size: 0.8em;
+}
+.dash-container .courses{
+  margin-top: 5px;
+  margin-left: 5px;
+  font-size: 1.5em;
+  /* padding-top: 5px; */
+  padding: 5px;
+  text-transform: uppercase;
+  font-weight: normal;
+  border: 1px solid #223b8b;
+  color: #223b8b;
+  border-radius: 40px 40px 40px 40px;
+  width: 400px;
+  text-align: center;
+  margin-right: 18px;
+}
+.subject{
+  margin-top: 60px;
+  box-sizing: border-box;
+  border: 1px solid white;
+  width: 450px;
+  height: 100px;
+  margin-left: 60px;
+  margin-right: 50px;
+  float: left;
+}
+.subject img{
+  float: left;
+  /* border: 1px solid #223b8b; */
+  border-radius: 50%;
+  background-color: white;
+}
+.subject h5{
+  margin-top: 15px;
+  color: white;
+  text-align: center;
+  font-size: 1.2em;
+  text-transform: uppercase;
+}
+.subject h6{
+  color: lightgrey;
+  text-align: center;
+  font-size: 0.6em;
+  margin: 0;padding: 0;
+  text-transform: uppercase;
+}
+.subject .btnchoices{
+  /* border: 1px solid white; */
+  padding: 5px;
+  margin: 5px 0px 0 70px;
+  width: 250px;
+
+}
+.subject .btnchoice{
+margin: 5px;
+padding: 5px;
+   /* background:#F1D903; */
+   background-image: linear-gradient(to top,#F1D903, white);
+background-color: white;
+border: 1px solid white;
+color: #00165d;
+border-radius: 15px;
+border-top: none;
+border-left: none;
+border-right: none;
+}
+.subject .btnchoice:hover{
+  background-color: white;
+  color: #223b8b;
+}
+.subject-desc{
+  margin-top: 5px;
+  border: 1px solid white;
+  margin-left: 100px;
+  width: 350px;
+  height: 140px;
+  /* background-color: #223b8b; */
+  background-image: linear-gradient(to right,#00165d, #5965bc);
+  
+}
+/* End Dashboard */
