@@ -3,8 +3,7 @@ import Navbar from './Components/Navbar.jsx';
 import Landing from './Components/Landing.jsx'
 import Footer from './Components/Footer.jsx';
 import './App.css';
-// import React, { Component } from "react";
-import { Document, Page } from "react-pdf/dist/entry.webpack";
+
 
 class App extends Component {
   render() {

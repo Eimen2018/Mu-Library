@@ -1,0 +1,30 @@
+[
+    {
+        "title":"Learn Machine Language",
+        "image":"AI"
+    },{
+        "title":"Learn Kivy (Python)",
+        "image":"html"
+    },
+    {
+        "title":"Learn Pc repair",
+        "image":"pr"
+    },{
+        "title":"Learn communications",
+        "image":"c"
+    },
+    {
+        "title":"Learn C++",
+        "image":"AI"
+    },{
+        "title":"Learn Photoshop",
+        "image":"html"
+    },
+    {
+        "title":"Learn JavaScript",
+        "image":"pr"
+    },{
+        "title":"Introduction To Computer",
+        "image":"c"
+    }
+]

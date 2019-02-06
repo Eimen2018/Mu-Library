@@ -16,7 +16,6 @@ class Books extends Component {
         <div className="container">
                 <h4>Recently Uploaded</h4>
                 <Book bookinfo ={bookinfo}/>
-                {/* <BookCard bookinfo ={bookinfo}/> */}
             </div>
         </main>
        </div>

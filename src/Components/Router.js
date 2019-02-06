@@ -8,6 +8,11 @@ import About from './About';
 import SignIn from './SignIn';
 import create from './create';
 import Home from './Home';
+import tutorials from './tutorials';
+import tutorialsDetail from './TutorialDetail';
+import Quizes from './Quizes';
+import upload from './upload';
+
 
 const Router=() =>(
     <BrowserRouter>
@@ -20,6 +25,11 @@ const Router=() =>(
         <Route path="/SignIn" component ={SignIn}/>
         <Route path="/create" component ={create}/>
         <Route path="/home" component={Home}/>
+        <Route path="/tutorials" component={tutorials}/>
+        <Route path="/tutorial/:id" component={tutorialsDetail}/>
+        <Route path="/Quizes" component={Quizes}/>
+        <Route path="/upload" component={upload}/>
+
     </Switch>
     </BrowserRouter>
 ); 

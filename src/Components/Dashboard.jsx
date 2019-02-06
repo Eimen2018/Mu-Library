@@ -19,7 +19,7 @@ class Dashboard extends Component {
             {/* <p>Academic Year: 3</p>
             <p>Semester: 1</p> */}
             </div>
-            <h5 className="courses">Courses in this semester</h5>
+            <h5 className="courses">Courses for this semester</h5>
             <div className="subject">
             <img src={Ai} alt="" width="150" height="150"/>
             <div className="subject-desc">

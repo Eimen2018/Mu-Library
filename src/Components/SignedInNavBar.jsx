@@ -21,9 +21,9 @@ class SignedInNavBar extends Component {
                     <li><NavLink to='/home' exact activeClassName='nav-active'>Home</NavLink></li>
                     <li><NavLink to='/Book' activeClassName='nav-active'>Books</NavLink></li>
                     <li><NavLink to='/Handout' activeClassName='nav-active'>Handouts</NavLink></li>
-                    <li><NavLink to='/Book' activeClassName='nav-active'>Tutorials</NavLink></li>
-                    <li><NavLink to='/Handout' activeClassName='nav-active'>Quizes</NavLink></li>
-                    <li><NavLink to='/About' activeClassName='nav-active'>Upload</NavLink></li>
+                    <li><NavLink to='/tutorials' activeClassName='nav-active'>Tutorials</NavLink></li>
+                    <li><NavLink to='/Quizes' activeClassName='nav-active'>Quizes</NavLink></li>
+                    <li><NavLink to='/upload' activeClassName='nav-active'>Upload</NavLink></li>
                     <li>
                         <div className="search-box"><input type="text" className="search-txt" name="" placeholder="Type to search"/>
                             <Link to='/Search'className="search-btn"><img className="search-icon" src={Search} alt="" />

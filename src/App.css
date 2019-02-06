@@ -668,7 +668,7 @@ top:79%;
 margin: 5px;
 padding: 5px;
    /* background:#F1D903; */
-   background-image: linear-gradient(to top,#F1D903, white);
+   /* background-image: linear-gradient(to top,#F1D903, white); */
 background-color: white;
 border: 1px solid white;
 color: #00165d;
@@ -692,3 +692,95 @@ border-right: none;
   
 }
 /* End Dashboard */
+
+/* Tutorial */
+.tutcontent{
+  border: 2px solid #223b8b;
+  width: 250px;
+  float: left;
+  margin: 95px 0 0 50px;
+  color: #00165d;
+  text-align: center;
+  overflow: hidden;
+  border-radius: 10px;
+}
+.tutcontent h4{
+  margin-top: -100px;
+  text-transform: uppercase;
+}
+.poster{
+  border-bottom: 1px solid #223b8b;
+}
+.play{
+ position: relative;
+ top: -180px;
+ visibility: hidden;
+}
+.tutcontent:hover .play{
+  visibility: visible;
+}
+.tutcontent:hover .poster{
+  opacity: 0.4;
+}
+.player{
+  margin-top: 100px;
+  margin-left: 40px;
+  float: left;
+  color: #223b8b;
+}
+.player h6{
+  margin: 0;
+  padding: 0;
+  width: 500px;
+  padding-left: 20px;
+}
+.suggestion{
+  padding-top: 100px;
+  margin-left: 750px;
+}
+.suggestion img{
+  float: left;
+}
+.suggestion h4{
+  position: relative;
+  right: 80px;
+  color: #223b8b;
+}
+
+.suggestion:hover .playsug{
+  visibility: visible;
+}
+.suggestion:hover .postersug{
+  opacity: 0.4;
+}
+.playsug{
+  position: relative;
+  right: 170px;
+  top: 30px;
+  visibility: hidden;
+}
+.player h3{
+  text-indent: 20px;
+}
+.playerdes{
+float: left;
+margin-top: -15px;
+margin-left: -80px;
+}
+.playerdes h6{
+  margin: 0;
+  padding: 0;
+  color: #5965bc;
+  text-transform: uppercase;
+}
+.btn-showmore{
+  width: 500px;
+  border: 1px solid #223b8b;
+  background-color: transparent;
+  padding: 10px;
+  margin-left: 50px;
+  margin-top: 20px;
+  color: #00165d;
+}
+
+/* End Tutorial */
