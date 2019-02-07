@@ -17,7 +17,7 @@ class Navbar extends Component {
                     <li><NavLink to='/' exact activeClassName='nav-active'>Home</NavLink></li>
                     <li><NavLink to='/Books' activeClassName='nav-active'>Books</NavLink></li>
                     <li><NavLink to='/Handouts' activeClassName='nav-active'>Handouts</NavLink></li>
-                    <li><NavLink to='/About' activeClassName='nav-active'>About</NavLink></li>
+                    <li><NavLink to='/About' activeClassName='nav-active'>About Me</NavLink></li>
                     <li>
                         <div className="search-box"><input type="text" className="search-txt" name="" placeholder="Type to search"/>
                             <Link to='/Search'className="search-btn"><img className="search-icon" src={Search} alt="" />

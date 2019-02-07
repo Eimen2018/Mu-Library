@@ -441,8 +441,71 @@ footer h4 {
 
 /* About */
 .imagecont img{
-  margin: 70px 0 0 330px;
-  width: 600px;
+  margin: 80px 0 0 0;
+  width:100px;
+  width: 550px;
+}
+.imagecont{
+  display: inline-block;
+}
+.AboutText{
+  display: inline-block;
+  position: absolute;
+  top:140px;
+}
+.AboutText h1{
+  font-size: 40px;
+  text-transform: uppercase;
+  color: #00165d;
+}
+.AboutText p{
+  margin-top: -28px;
+  font-size: 18px;
+  color: #5965bc;
+}
+.contactIcons{
+  margin-top: 35px;
+}
+.Icon{
+  width: 20px;
+  height: 20px;
+  border:1px solid #00165d;
+  border-radius: 50%;
+  padding: 10px;
+  margin-right: 25px;
+}
+.Icon:hover{
+  transform: scale(1.2);
+}
+.aboutme-container{
+  margin-top: 20px;
+}
+.aboutme{
+  width: 300px;
+  height: 400px;
+  float: left;
+  border-radius: 20px;
+  margin-left: 80px;
+  border: 1px solid #00165d;
+  margin-bottom: 10px;
+}
+.title{
+  text-align:center;
+  border:1px solid #00165d;
+  margin-top:0px;
+  margin-right:13px;
+  margin-left:13px;
+  padding:5px 0 7px 0;
+  background-color: #00165d;
+  color:white;
+  font-size: 18px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+.aboutDesc{
+  text-align: center;
+  margin:45px 10px 0 10px;
+  font-size: 17px;
 }
 /* End About */
 /* Pdf */
@@ -538,6 +601,47 @@ top:79%;
 .btn-signedin .userImage{
   margin-top: 2px;
   padding-right: 2px;
+  border-radius: 50%;
+}
+.btn-signedin .userImage:hover{
+  background-color: #00165d;
+}
+.dropdown{
+  position: absolute;
+  width: 150px;
+  height: 80px;
+  border: 1px solid black;
+  left: 1110px;
+  top: 50px;
+  border-radius: 20px 0px 00px 0px;
+  background-color: #5965bc;
+  visibility: hidden;
+}
+.dropdown span{
+  border-radius: 20px 0px 0px 0px;
+display: block;
+margin-top: 0px;
+color: white;
+padding-top: 10px;
+text-transform: capitalize;
+padding-bottom: 10px;
+/* border-top: 1px solid #223b8b; */
+}
+.dropdown .top{
+  border-top: 1px solid #223b8b;
+  border-radius: 20px 0px 0px 0px;
+}
+.dropdown img {
+  margin-top: 0px;
+  margin-left: 10px;
+  float: left;
+  padding-left: 12px;
+  padding-right: 8px;
+  padding-top: 10px;
+}
+.dropdown span:hover{ 
+  background-color: #223b8b;
+  color: white;
 }
 .signedinUl{
   margin: 10px 0 0 0;
@@ -633,7 +737,7 @@ top:79%;
   border: 1px solid white;
   width: 450px;
   height: 100px;
-  margin-left: 60px;
+  margin-left: 90px;
   margin-right: 50px;
   float: left;
 }
@@ -784,3 +888,61 @@ margin-left: -80px;
 }
 
 /* End Tutorial */
+
+/* Upload */
+.form-container{
+  margin-top: 250px;
+  margin-left: 100px;
+}
+.form-container h1{
+  float: left;
+  text-align: center;
+  text-transform: uppercase;
+  color: #00165d;
+}
+.form-container .form{
+  border-top: 3px solid #223b8b;
+  border-bottom: 3px solid #223b8b;
+  border-radius: 30px 30px 30px 30px;
+  width: 300px;
+  height: 300px;
+  float: right;
+  margin-right: 100px;
+  margin-top: -100px;
+}
+.form-container h4{
+  text-align: center;
+  padding: 15px;
+  margin-left: 83px;
+  margin-top: 0;
+  border-radius: 0px 0px 20px 20px;
+  background-image: linear-gradient(to right,#00165d, #5965bc);;
+  text-transform: uppercase;
+  color: white;
+  /* border: 1px solid black; */
+  width: 100px;
+}
+.btn-upload{
+  background-color: transparent;
+  padding: 15px;
+  width: 230px;
+  margin-top: 20px;
+  margin-left: 40px;
+  border-radius: 20px;
+  outline: none;
+  border: 1px solid #00165d;
+  font-size: 1.0em;
+  color: #223b8b;
+}
+.desc-textarea{
+  margin-left: 15px;
+  margin-top: 15px;
+}
+.file-upload{
+  background-color: transparent;
+  color: #00165d;
+}
+.file-upload[type="file" button]{
+  background-color:transparent;
+}
+/* End Upload */

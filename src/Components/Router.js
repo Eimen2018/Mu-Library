@@ -29,6 +29,9 @@ const Router=() =>(
         <Route path="/tutorial/:id" component={tutorialsDetail}/>
         <Route path="/Quizes" component={Quizes}/>
         <Route path="/upload" component={upload}/>
+        <Route path="/Auth/Books" component={Books}/>
+        <Route path="/Auth/Book/:id" component={BookDetail}/>
+
 
     </Switch>
     </BrowserRouter>
