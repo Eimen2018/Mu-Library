@@ -3,11 +3,11 @@ import Navbar from './SignedInNavBar';
 import Dashboard from './Dashboard';
 
 class Home extends Component {
-    state = {  }
+    state = { }
     render() { 
         return ( 
             <React.Fragment>
-                <header><Navbar /></header>
+                <header><Navbar/></header>
                 <main><Dashboard /></main>
             </React.Fragment>
 

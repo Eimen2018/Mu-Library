@@ -12,6 +12,8 @@ import tutorials from './tutorials';
 import tutorialsDetail from './TutorialDetail';
 import Quizes from './Quizes';
 import upload from './upload';
+import HandoutDetail from './HandoutDetail';
+import QuizeDetail from './quizdetail';
 
 
 const Router=() =>(
@@ -21,6 +23,7 @@ const Router=() =>(
         <Route path="/Books" component={Books}/>
         <Route path="/Book/:id" component={BookDetail}/>
         <Route path="/Handouts" component ={Handouts}/>
+        <Route path="/Handout/:id" component ={HandoutDetail}/>
         <Route path="/About" component ={About}/>
         <Route path="/SignIn" component ={SignIn}/>
         <Route path="/create" component ={create}/>
@@ -28,9 +31,12 @@ const Router=() =>(
         <Route path="/tutorials" component={tutorials}/>
         <Route path="/tutorial/:id" component={tutorialsDetail}/>
         <Route path="/Quizes" component={Quizes}/>
+        <Route path="/Quize/Detail" component={QuizeDetail}/>
         <Route path="/upload" component={upload}/>
         <Route path="/Auth/Books" component={Books}/>
         <Route path="/Auth/Book/:id" component={BookDetail}/>
+        <Route path="/Auth/Handouts" component={Handouts}/>
+        <Route path="/Auth/Handout/:id" component={HandoutDetail}/>
 
 
     </Switch>

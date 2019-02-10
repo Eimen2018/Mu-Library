@@ -1,0 +1,42 @@
+[   {
+        "Question":1,
+        "Ques":"What does css stands for ?",
+        "A":"console style sheet",
+        "B":"casceding style sheet",
+        "C":"capital sheet style",
+        "D":"casceding style sheet"
+        
+    },
+    {
+        "Question":2,
+        "Ques":"How do we change background color ?",
+        "A":"bgcolor:black",
+        "B":"background-color=black",
+        "C":"background-color:black",
+        "D":"bgcolor=black"
+    },
+    {
+        "Question":3,
+        "Ques":"what the default value of position ?",
+        "A":"sticky",
+        "B":"static",
+        "C":"relative",
+        "D":"absolute"
+    },
+{
+        "Question":4,
+        "Ques":"how do we get rid of the underline on anchor tag ?",
+        "A":"a{text-decoration:none}",
+        "B":"a{underline:none}",
+        "C":"a{text-decoration=none}",
+        "D":"a{underline=none}"
+    },
+    {
+        "Question":5,
+        "Ques":"what is the tag for embedded style ?",
+        "A":"<style>",
+        "B":"<styleSheet>",
+        "C":"<style.sheet>",
+        "D":"<sheet>"
+    }
+]

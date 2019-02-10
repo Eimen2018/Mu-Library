@@ -5,13 +5,14 @@ import assets from '../Assets/Images/thumbnails/thumb1.jpg';
 class Book extends Component {
     state = {  }
     render() { 
-        // const {ID,title,Desc,Publisher} = this.props.bookinfo;
+        const links = this.props.auth===true?`/Auth`:``;
+        console.log(this.props)
         return ( 
             
             <div className="Book">
             {this.props.bookinfo.map(book=>
             <Link to={{
-                pathname:`/Book/${book.ID}`,
+                pathname:`/Book`+links+`/${book.ID}`,
                 state:{bookinfo:book}
                 }}>
             <Fade right><div key={book.ID} className="Book-Desc">

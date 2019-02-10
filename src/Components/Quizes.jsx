@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Navbar from './SignedInNavBar';
+import Quiz from './quiz';
 
 class Quizes extends Component {
     state = {  }
@@ -10,7 +11,7 @@ class Quizes extends Component {
                     <Navbar />
                 </header>
                 <main>
-                    
+                    <Quiz />
                 </main>
             </React.Fragment>
          );

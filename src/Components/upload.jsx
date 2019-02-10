@@ -11,11 +11,12 @@ class upload extends Component {
                 </header>
                 <main>
                     <div className="form-container">
-                    <h1> BE RESPonsible for what people See/Read</h1>
+                    <h1> BE RESPonsible for what people <br/>See or Read</h1>
                         <form className="form">
                        <h4 htmlFor="filename">File Upload</h4>
                        <div className="fileselector">
-                        <input type="file" className="file-upload"/>
+                        <input type="file" name="file" id="file"className="file-upload"/>
+                        <label htmlFor="file" className="file-selector">Choose a file</label>
                         </div>
                         <div className="typeof">
                         <input type="radio" name="type" value="Book" />Book

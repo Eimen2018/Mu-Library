@@ -392,9 +392,14 @@ footer h4 {
   background: none;
   outline: none;
   color: #00165d;
+  border-top: 1px solid #00165d;
+  border-radius: 20px;
 }
 .signin-form .btn-create:hover{
-  text-decoration: underline;
+  /* text-decoration: underline; */
+  border-bottom: 1px solid #00165d;
+  border-top: none;
+  transform: scale(1.07);
 }
 /* SignInform */
 
@@ -422,6 +427,12 @@ footer h4 {
 .signup-form input[placeholder]{
   font-size: 1.0em;
 }
+.signin-form p{
+font-size: 0.9em;
+}
+.signin-form p:hover{
+  text-decoration: underline;
+}
 .signup-form .btn-create{
   display: block;
   float: right;
@@ -431,6 +442,7 @@ footer h4 {
   color: white;
   outline: none;
   border: none;
+  /* border-top: 1px solid #00165d; */
   border-radius: 10px;
   margin: 15px 50px 0 0;
 }
@@ -509,6 +521,73 @@ footer h4 {
 }
 /* End About */
 /* Pdf */
+.btn-download{
+  background-color: #00165d;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: uppercase;
+  position: relative;
+  width: 200px;
+  top: 430px;
+  left: -265px;
+}
+.comments{
+  position: relative;
+  top:500px;
+  left: -290px;
+}
+.comments h6{
+  margin: 0;
+  padding: 0;
+  float: left;
+  font-size: 0.8em;
+  margin-right: 20px;
+  background-color: #223b8b;
+  color: white;
+  padding: 2px;
+  border-radius: 0 20px 20px 0
+}
+.comments p{
+  margin: 0;
+  padding: 0;
+  font-size: 0.9em;
+  margin-left: 550px;
+}
+.comment{
+margin-top: 10px;
+}
+.comments h5{
+  margin:15px;
+  font-size: 1.1em;
+  color: #00165d;
+}
+.textcomment{
+  padding: 5px;
+  border: none;
+  border-bottom: 1px solid #223b8b;
+}
+.comments label{
+  background-color: #223b8b;
+  color: white;
+  padding: 5px;
+  margin-left: 10px;
+  border-radius: 20px;
+}
+
+.span-download{
+  background-color: #00165d;
+  color: white;
+  padding: 10px;
+  border-radius: 10px;
+  text-transform: capitalize;
+  position: relative;
+  top: 440px;
+  left: -250px;
+}
+a{
+  text-decoration: none;
+}
 .pdfBook{
   float: left;
   width: 600px;
@@ -517,6 +596,7 @@ footer h4 {
   top: 80px;
   left: 600px;
   position: absolute;
+  margin-bottom: 20px;
 }
 .btn-prev{
   background: none;
@@ -604,7 +684,7 @@ top:79%;
   border-radius: 50%;
 }
 .btn-signedin .userImage:hover{
-  background-color: #00165d;
+  opacity: 0.4;
 }
 .dropdown{
   position: absolute;
@@ -817,7 +897,7 @@ border-right: none;
 }
 .play{
  position: relative;
- top: -180px;
+ top: -160px;
  visibility: hidden;
 }
 .tutcontent:hover .play{
@@ -860,7 +940,7 @@ border-right: none;
 .playsug{
   position: relative;
   right: 170px;
-  top: 30px;
+  top: 40px;
   visibility: hidden;
 }
 .player h3{
@@ -916,7 +996,7 @@ margin-left: -80px;
   margin-left: 83px;
   margin-top: 0;
   border-radius: 0px 0px 20px 20px;
-  background-image: linear-gradient(to right,#00165d, #5965bc);;
+  background-image: linear-gradient(to right,#00165d, #5965bc);
   text-transform: uppercase;
   color: white;
   /* border: 1px solid black; */
@@ -929,20 +1009,134 @@ margin-left: -80px;
   margin-top: 20px;
   margin-left: 40px;
   border-radius: 20px;
-  outline: none;
+  border: none;
   border: 1px solid #00165d;
   font-size: 1.0em;
   color: #223b8b;
+}
+.btn-upload:hover{
+background-image: linear-gradient(to right,#00165d, #5965bc);
+color: white;
+border: none;
 }
 .desc-textarea{
   margin-left: 15px;
   margin-top: 15px;
 }
 .file-upload{
+  width: 0.1px;
+  height: 0.1px;
+  opacity: 0;
+  overflow: hidden;
+  position: absolute;
+  z-index: -1;
+  display: none;
+}
+.file-selector{
+  /* border: 1px solid black; */
+  color: white;
+  padding: 5px;
+  margin-left: 95px;
+  background-color: #5965bc;
+  border-radius: 20px;
+  position: relative;
+  top: -10px;
+}
+.file-selector:hover{
   background-color: transparent;
   color: #00165d;
+  border: 1px solid #00165d;
 }
-.file-upload[type="file" button]{
-  background-color:transparent;
+.typeof{
+  margin-top: 0px;
+  margin-left: 30px;
+}
+.typeof input{
+  margin: 10px;
 }
 /* End Upload */
+/* quiz */
+.quiz-container{
+  margin-top: 150px;
+  margin-left: -10px;
+}
+.quiz{
+  float: left;
+  width: 250px;
+  height: 200px;
+  margin-left: 60px;
+  margin-bottom: 40px;
+}
+.quizstart{
+  position: relative;
+  left: 75px;
+  top: -80px;
+  padding: 10px;
+  background-color: #223b8b;
+  color: white;
+  text-transform: uppercase;
+  visibility: hidden;
+}
+.quiz h4{
+  width:280px;
+  text-align: center;
+  margin-left: -25px;
+  padding: 10px;
+  margin-top: -30px;
+  text-transform: uppercase;
+  background-image:  linear-gradient(to right,#00165d, #5965bc);
+  color: whitesmoke;
+}
+.quiz:hover .quizstart{
+visibility: visible;
+}
+.quiz:hover .posterquiz{
+  opacity: 0.4;
+}
+.quizstart:hover{
+background-color: white;
+color: #00165d;
+border: 1px solid #00165d;
+}
+.questions{
+margin-top: 90px;
+margin-left: 350px;
+  border-bottom: 4px solid black;
+  border-radius: 20px;
+  width: 600px;
+  height: 400px;
+}
+.questions .btn-Next{
+  padding: 15px;
+  width: 150px;
+  background-color: #223b8b;
+  color: white;
+  border: none;
+  font-size: .9em;
+  border-radius: 20px;
+  margin-top: 70px;
+  margin-left: 400px;
+}
+.choices{
+  padding: 10px;
+  margin-left: 170px;
+}
+.choices label{
+  margin-left: 20px;
+  font-size: 1.2em;
+}
+.btn-choices{
+  padding-left: 10px;
+}
+.questions h4{
+  border-radius: 20px;
+  text-align: center;
+  color: white;
+  background: #223b8b;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+  margin-top: 0;
+  padding: 10px;
+}
+
+/* End quiz */
