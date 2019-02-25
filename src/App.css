@@ -1138,5 +1138,10 @@ margin-left: 350px;
   margin-top: 0;
   padding: 10px;
 }
+.questions h2{
+  color: #00165d;
+  margin: 0;
+  padding: 0;
+}
 
 /* End quiz */

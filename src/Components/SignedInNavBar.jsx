@@ -20,6 +20,7 @@ class SignedInNavBar extends Component {
             document.querySelector('.dropdown').style = 'visibility:hidden';
         }
      }
+    
     render() { 
         return (  
             <div className="navigation">
@@ -40,7 +41,7 @@ class SignedInNavBar extends Component {
                             <Link to='/Search'className="search-btn"><img className="search-icon" src={Search} alt="" />
                             </Link></div></li>
                 </ul>
-                <button className="btn-signedin"><Link to="#" class="badge1" data-badge="2"><img className="userNoti" src={notification} alt="" width="30" height="30"/></Link><img className="userImage" src={user} alt="" width="30" height="30" onClick={this.HandleOnclick}/><span className="username">Aymen Nur</span></button>
+                <button className="btn-signedin"><Link to="#" class="badge1" data-badge="0"><img className="userNoti" src={notification} alt="" width="30" height="30"/></Link><img className="userImage" src={user} alt="" width="30" height="30" onClick={this.HandleOnclick}/><span className="username">Aymen Nur</span></button>
                 <div className="dropdown">
                 <img src={setting} alt="" width="20" className="list"/>
                 <span className="list">Setting</span>
