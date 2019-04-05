@@ -5,8 +5,9 @@ import {Fade} from 'react-reveal';
 
 
 class quizdetail extends Component {
+    
     state = { 
-        question:0
+        question:this.props
      }
       usr_answer =[];
       
